@@ -41,4 +41,5 @@ def predictRoute():
 if __name__ == "__main__":
     clApp = ClientApp()
     #app.run(host='0.0.0.0', port=port)
-    app.run(host='0.0.0.0', port=8000, debug=True)
+    app.run(host='0.0.0.0', port=8000, debug=True) #to run in cloud setup
+    #app.run(port=8000, debug=True) #to run in local system
